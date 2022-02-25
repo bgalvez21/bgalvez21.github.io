@@ -828,7 +828,7 @@
   itemscope="" itemtype="http://schema.org/WebPage" style="position: relative; min-height: 100%; top: 0px;">
   <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" class="bottomMenu hide"
     id="needmoreform" method="POST" style="position: fixed; top: 70px; right: 10px; z-index: 9999">
-    <h3>I want more information - Call me</h3>
+    <h3>Quiero mas información - Llámenme</h3>
     <input type=hidden name="oid" value="00D3V000000vrUa">
     <input type=hidden name="retURL" value="http://127.0.0.1:5501/index.html">
 
@@ -839,17 +839,17 @@
     <!--  <input type="hidden" name="debugEmail" value="bgalvez@redk.net">        -->
     <!--  ----------------------------------------------------------------------  -->
 
-    <label for="first_name">First Name</label><input id="first_name" maxlength="40" name="first_name" size="20"
+    <label for="first_name">Nombre</label><input id="first_name" maxlength="40" name="first_name" size="20"
       type="text" />
 
-    <label for="last_name">Last Name</label><input id="last_name" maxlength="80" name="last_name" size="20"
+    <label for="last_name">Apellidos</label><input id="last_name" maxlength="80" name="last_name" size="20"
       type="text" />
 
     <label for="email">Email</label><input id="email" maxlength="80" name="email" size="20" type="text" />
 
-    <label for="mobile">Mobile</label><input id="mobile" maxlength="40" name="mobile" size="20" type="text" />
+    <label for="mobile">Teléfono</label><input id="mobile" maxlength="40" name="mobile" size="20" type="text" />
 
-    <label for="city">City</label><input id="city" maxlength="40" name="city" size="20" type="text" />
+    <label for="city">Ciudad</label><input id="city" maxlength="40" name="city" size="20" type="text" />
 
     <input id="company" maxlength="40" name="company" size="20" type="hidden" value="Demo" />
 
@@ -881,7 +881,7 @@
           text-transform: uppercase;
           letter-spacing: 0.1em;
           color: #383749;
-          text-decoration: none;background-color:white; margin-top: 17px;" value="Send">
+          text-decoration: none;background-color:white; margin-top: 17px;" value="Enviar">
 
   </form>
   <div class="qodef-wrapper">
@@ -2822,8 +2822,8 @@
       embedded_svc.settings.displayHelpButton = true; //Or false
       embedded_svc.settings.language = ''; //For example, enter 'en' or 'en-US'
 
-      //embedded_svc.settings.defaultMinimizedText = '...'; //(Defaults to Chat with an Expert)
-      //embedded_svc.settings.disabledMinimizedText = '...'; //(Defaults to Agent Offline)
+      embedded_svc.settings.defaultMinimizedText = 'Chatea con nosotros'; //(Defaults to Chat with an Expert)
+      embedded_svc.settings.disabledMinimizedText = 'Agentes offline'; //(Defaults to Agent Offline)
 
       //embedded_svc.settings.loadingText = ''; //(Defaults to Loading)
       //embedded_svc.settings.storageDomain = 'yourdomain.com'; //(Sets the domain for your deployment so that visitors can navigate subdomains during a chat session)
