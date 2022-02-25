@@ -1,0 +1,60 @@
+
+.bottomMenu {
+    position: fixed;
+    bottom: 0;
+    height: 60px;
+    z-index: 1;
+    transition: all 1s;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 10;
+    padding: 14px;
+    width: 21%;
+    background-color: white;
+  }
+  .hide {
+    opacity: 0;
+    right: -100%;
+  }
+  .show {
+    opacity: 1;
+    right: 0;
+  }
+
+  .bottomMenu label, .bottomMenu input {
+      display: block;
+      font-size: 13px;
+      width: 100%;
+  }
+
+  .bottomMenu label {
+    margin-bottom: 3px;
+        font-size: 0.6rem;
+    font-weight: 400;
+}
+
+.bottomMenu input {
+    margin-bottom:5px;
+}
+
+  .bottomMenu h3 {
+      font-size: 1rem;
+      border-bottom: 1px dotted #ccc;
+          margin-bottom: 10px;
+  }
+
+  .bottomMenu {
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px #a0a0a0;
+    height: 388px;
+  }
+
+  .bottomMenu input {
+      border: 1px solid #333;
+    border-radius: 3px;
+    padding: 5px 6px;
+    box-sizing: border-box;
+  }
+
+  
